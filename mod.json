@@ -1,0 +1,9 @@
+{
+	"name": "SCAR_L",
+	"version": "0.0.24",
+	"label": "0 A.D. Empires Ascendant",
+	"url": "play0ad.com",
+	"description": "SCAR - L Assault Rifle with first shooter Animations.",
+	"dependencies": ["0ad>=0.0.23"],
+	"type": "Content mod"
+}
