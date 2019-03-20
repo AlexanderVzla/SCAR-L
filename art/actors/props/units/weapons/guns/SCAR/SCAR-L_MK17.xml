@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="SCAR-L 7.62x39">
+        <mesh>props/weapons/guns/assault_rifles/SCAR/trigger_module.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/guns/assault_rifles/SCAR/trigger_module_type-1.png" name="baseTex"/>
+        </textures>
+      <props>
+        <prop actor="props/units/weapons/guns/SCAR/MK17-Receiver.xml" attachpoint="Receiver"/>
+        <prop actor="props/units/weapons/guns/SCAR/MK17-Guard.xml" attachpoint="Receiver"/>
+        <prop actor="props/units/weapons/guns/SCAR/MK17-Rail.xml" attachpoint="Barrel_Holder"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

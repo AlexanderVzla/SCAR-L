@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="EGLM">
+        <mesh>props/weapons/guns/assault_rifles/SCAR/EGLM_Launcher.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/guns/assault_rifles/SCAR/eglm_type-1.png" name="baseTex"/>
+        </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="MK20 - Receiver">
+        <mesh>props/weapons/guns/assault_rifles/SCAR/MK20_rail.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/guns/assault_rifles/SCAR/barrel.png" name="baseTex"/>
+        </textures>
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
