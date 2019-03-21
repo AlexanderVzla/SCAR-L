@@ -14,8 +14,7 @@
           <texture file="props/weapons/assault_rifles/SCAR/trigger_module_spec.png" name="specTex"/>
         </textures>
       <props>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Core.xml" attachpoint="Gun_Core"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_module.xml" attachpoint="Buttstock_Holder"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Core.xml" attachpoint="Gun_Core"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_holder.xml" attachpoint="Buttstock_Holder"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Receiver.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Guard.xml" attachpoint="Receiver"/>
@@ -23,6 +22,7 @@
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_muzzle.xml" attachpoint="Muzzle"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_iron_sight.xml" attachpoint="Rear_Sight"/>
         <prop actor="props/units/weapons/assault_rifles/barrel/STD-20_barrel.xml" attachpoint="Barrel"/>
+        <prop actor="props/units/weapons/assault_rifles/attachments/Handgrip_Stock.xml" attachpoint="Handgrip"/>
       </props>
     </variant>
   </group>

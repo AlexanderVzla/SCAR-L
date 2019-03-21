@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Buttstock type-2">
+        <mesh>props/weapons/assault_rifles/SCAR/MK20_buttstock_case.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/assault_rifles/SCAR/mk20_buttstock.png" name="baseTex"/>
+          <texture file="props/weapons/assault_rifles/SCAR/mk20_buttstock_norm.png" name="normTex"/>
+          <texture file="props/weapons/assault_rifles/SCAR/mk20_buttstock_spec.png" name="specTex"/>
+        </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

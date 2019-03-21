@@ -14,8 +14,7 @@
           <texture file="props/weapons/assault_rifles/SCAR/trigger_module_spec.png" name="specTex"/>
         </textures>
       <props>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Core_Launcher.xml" attachpoint="Gun_Core"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_module.xml" attachpoint="Buttstock_Holder"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Core_Launcher.xml" attachpoint="Gun_Core"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_holder.xml" attachpoint="Buttstock_Holder"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Receiver.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Guard.xml" attachpoint="Receiver"/>
