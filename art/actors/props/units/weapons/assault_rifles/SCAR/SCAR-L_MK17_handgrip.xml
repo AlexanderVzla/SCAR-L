@@ -23,6 +23,7 @@
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_muzzle.xml" attachpoint="Muzzle"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_iron_sight.xml" attachpoint="Rear_Sight"/>
         <prop actor="props/units/weapons/assault_rifles/barrel/STD-16_barrel.xml" attachpoint="Barrel"/>
+        <prop actor="props/units/weapons/assault_rifles/attachments/Handgrip_Stock.xml" attachpoint="Handgrip"/>
       </props>
     </variant>
   </group>

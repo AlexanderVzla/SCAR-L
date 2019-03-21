@@ -2,14 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Stock Sight">
-        <mesh>props/weapons/assault_rifles/SCAR/iron_sight.dae</mesh>
+    <variant name="Stock Handgrip">
+        <mesh>props/weapons/assault_rifles/attachments/handgrip_stock_01.dae</mesh>
     </variant>
   </group>
   <group>
     <variant>
         <textures>
-          <texture file="props/weapons/assault_rifles/SCAR/iron_sight.png" name="baseTex"/>
+          <texture file="props/weapons/assault_rifles/handgrip_stock_black.png" name="baseTex"/>
         </textures>
     </variant>
   </group>
