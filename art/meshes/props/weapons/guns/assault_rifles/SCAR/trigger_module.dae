@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.45 commit date:2019-03-04, commit time:16:10, hash:e5ab2b9c629e</authoring_tool>
     </contributor>
-    <created>2019-03-20T17:13:25</created>
-    <modified>2019-03-20T17:13:25</modified>
+    <created>2019-03-20T21:20:39</created>
+    <modified>2019-03-20T21:20:39</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -95,7 +95,7 @@
         <node id="prop_attachment_front_R" name="prop_attachment_front_R" type="NODE">
           <matrix sid="transform">1 0 0 -0.215771 0 1 0 -1.71309 0 0 1 0.3634292 0 0 0 1</matrix>
         </node>
-        <node id="prop_barrel" name="prop_barrel" type="NODE">
+        <node id="prop_Barrel" name="prop_Barrel" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 -1.06179 0 0 1 0.309108 0 0 0 1</matrix>
         </node>
         <node id="prop_Gun_Core" name="prop_Gun_Core" type="NODE">
@@ -108,7 +108,7 @@
           <matrix sid="transform">1 0 0 0 0 1 0 -0.9466041 0 0 1 0.2274621 0 0 0 1</matrix>
         </node>
         <node id="prop_magazine" name="prop_magazine" type="NODE">
-          <matrix sid="transform">1 0 0 0 0 1 0 -0.6166621 0 0 1 0.1620519 0 0 0 1</matrix>
+          <matrix sid="transform">1 0 0 0 0 1 0 -0.7703491 0 0 1 -0.674155 0 0 0 1</matrix>
         </node>
         <node id="prop_Sight-M" name="prop_Sight-M" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 -0.4278761 0 0 1 0.634814 0 0 0 1</matrix>
@@ -116,13 +116,13 @@
         <node id="prop_Rail" name="prop_Rail" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 -0.8256058 0 0 1 0.4056151 0 0 0 1</matrix>
         </node>
-        <node id="prop_Buttstock_-_Holder" name="prop_Buttstock - Holder" type="NODE">
+        <node id="prop_Buttstock_Holder" name="prop_Buttstock_Holder" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 0.345112 0 0 1 0.319254 0 0 0 1</matrix>
         </node>
-        <node id="prop_muzzle" name="prop_muzzle" type="NODE">
+        <node id="prop_Muzzle" name="prop_Muzzle" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 -2.101251 0 0 1 0.299865 0 0 0 1</matrix>
         </node>
-        <node id="prop_rear_dot" name="prop_rear_dot" type="NODE">
+        <node id="prop_Rear_Sight" name="prop_Rear_Sight" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 0.2546001 0 0 1 0.634814 0 0 0 1</matrix>
         </node>
         <node id="prop_Receiver" name="prop_Receiver" type="NODE">

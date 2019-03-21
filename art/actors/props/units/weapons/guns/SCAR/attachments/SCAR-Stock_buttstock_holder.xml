@@ -2,14 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="MK20">
-        <mesh>props/weapons/guns/assault_rifles/SCAR/MK20_receiver.dae</mesh>
+    <variant name="Buttstock Stock">
+        <mesh>props/weapons/guns/assault_rifles/SCAR/buttstock_stock_holder.dae</mesh>
     </variant>
   </group>
   <group>
     <variant>
         <textures>
-          <texture file="props/weapons/guns/assault_rifles/SCAR/receiver_type-1.png" name="baseTex"/>
+          <texture file="props/weapons/guns/assault_rifles/SCAR/buttstock_type-1.png" name="baseTex"/>
         </textures>
     </variant>
   </group>

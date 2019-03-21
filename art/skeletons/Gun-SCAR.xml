@@ -11,14 +11,14 @@
       <bone name="SCAR_Buttstock">
         <bone name="SCAR_Buttstock_Extension" />
       </bone>
-      <bone name="Scar_Bullet_Case_Rail" />
+      <bone name="SCAR_Bullet_Case_Rail" />
       <bone name="SCAR_Magazine" />
-      <bone name="SCAR_ELGM">
-        <bone name="SCAR-Grenade" />
-        <bone name="SCAR-Grenade_Case" />
+      <bone name="SCAR_EGLM">
+        <bone name="SCAR_Grenade" />
+        <bone name="SCAR_Grenade_Case" />
       </bone>
     </bone>
-    <bone name="SCAR- Rail_Ready" />
+    <bone name="SCAR_Rail_Ready" />
   </standard_skeleton>
   <skeleton target="Gun-SCAR" title="Gun-SCAR">
     <identifier>
@@ -50,24 +50,24 @@
           <target>SCAR_Buttstock_Extension</target>
         </bone>
       </bone>
-      <bone name="Scar_Bullet_Case_Rail">
-        <target>Scar_Bullet_Case_Rail</target>
+      <bone name="SCAR_Bullet_Case_Rail">
+        <target>SCAR_Bullet_Case_Rail</target>
       </bone>
       <bone name="SCAR_Magazine">
         <target>SCAR_Magazine</target>
       </bone>
-      <bone name="SCAR_ELGM">
-        <target>SCAR_ELGM</target>
-        <bone name="SCAR-Grenade">
-          <target>SCAR-Grenade</target>
+      <bone name="SCAR_EGLM">
+        <target>SCAR_EGLM</target>
+        <bone name="SCAR_Grenade">
+          <target>SCAR_Grenade</target>
         </bone>
-        <bone name="SCAR-Grenade_Case">
-          <target>SCAR-Grenade_Case</target>
+        <bone name="SCAR_Grenade_Case">
+          <target>SCAR_Grenade_Case</target>
         </bone>
       </bone>
     </bone>
-    <bone name="SCAR- Rail_Ready">
-      <target>SCAR- Rail_Ready</target>
+    <bone name="SCAR_Rail_Ready">
+      <target>SCAR_Rail_Ready</target>
     </bone>
   </skeleton>
 </skeletons>

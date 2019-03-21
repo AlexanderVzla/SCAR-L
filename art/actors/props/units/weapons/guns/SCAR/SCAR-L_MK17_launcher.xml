@@ -14,12 +14,14 @@
           <texture file="props/weapons/guns/assault_rifles/SCAR/trigger_module_spec.png" name="specTex"/>
         </textures>
       <props>
-        <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Core.xml" attachpoint="Gun_Core"/>
+        <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Core_Launcher.xml" attachpoint="Gun_Core"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Stock_buttstock_module.xml" attachpoint="Buttstock_Holder"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Stock_buttstock_holder.xml" attachpoint="Buttstock_Holder"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-MK17_Receiver.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-MK17_Guard.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-MK17_Rail.xml" attachpoint="Barrel_Holder"/>
+        <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-EGLM_Rail.xml" attachpoint="lower_attachment"/>
+        <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-EGLM_Trigger.xml" attachpoint="ELGM_Trigger"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Stock_muzzle.xml" attachpoint="Muzzle"/>
         <prop actor="props/units/weapons/guns/SCAR/attachments/SCAR-Stock_iron_sight.xml" attachpoint="Rear_Sight"/>
         <prop actor="props/units/weapons/guns/barrel/STD-16_barrel.xml" attachpoint="Barrel"/>
