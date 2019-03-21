@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="SCAR">
+        <mesh>props/weapons/assault_rifles/SCAR/SCAR-Core.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/assault_rifles/SCAR/barrel.png" name="baseTex"/>
+        </textures>
+      <props>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-buttstock_case.xml" attachpoint="Buttstock"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-buttstock_extension.xml" attachpoint="Buttstock_Extension"/>
+        <prop actor="props/units/weapons/ammo/7_62x39_magazine_type-01.xml" attachpoint="Magazine"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
