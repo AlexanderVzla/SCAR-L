@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry">
+<Entity parent="template_unit_infantry_ranged">
   <Armour>
     <Hack>1</Hack>
     <Pierce>1</Pierce>
@@ -7,19 +7,21 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Ammo>20</Ammo>
+      <Ammo>15</Ammo>
+      <Missle>15</Missle>
 	  <RefillAmount>5</RefillAmount>
 	  <RefillTime>100000</RefillTime>
       <Hack>0</Hack>
       <Pierce>1.5</Pierce>
       <Crush>0</Crush>
-      <MaxRange>10.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <MaxRange>70.0</MaxRange>
+      <MinRange>4.0</MinRange>
+      <ProjectileSpeed>140.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>1250</RepeatTime>
-      <Spread>3.0</Spread>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>250</RepeatTime>
+	  <AnimLength>2000</AnimLength>
+      <Spread>12.0</Spread>
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
@@ -27,11 +29,20 @@
   <Health>
     <Max>50</Max>
   </Health>
+  <Pack>
+    <Time>100</Time>
+  </Pack>
   <Identity>
     <GenericName>Ranged</GenericName>
-    <VisibleClasses datatype="tokens">Ranged</VisibleClasses>
+    <VisibleClasses datatype="tokens">Sharpshooter</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
   </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.4</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.0</Speed>
+    </Run>
+  </UnitMotion>
 </Entity>

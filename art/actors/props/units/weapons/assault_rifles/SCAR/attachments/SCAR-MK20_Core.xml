@@ -18,5 +18,10 @@
       </props>
     </variant>
   </group>
+  <group>
+	<variant file="weapons/SCAR/MK20/ready.xml"/>
+	<variant file="weapons/SCAR/MK20/aim.xml"/>
+	<variant file="weapons/SCAR/MK20/shoot.xml"/>
+  </group>
   <material>basic_trans.xml</material>
 </actor>
