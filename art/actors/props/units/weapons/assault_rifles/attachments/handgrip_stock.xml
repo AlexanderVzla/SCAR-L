@@ -9,7 +9,7 @@
   <group>
     <variant>
         <textures>
-          <texture file="props/weapons/assault_rifles/handgrip_stock_black.png" name="baseTex"/>
+          <texture file="props/weapons/assault_rifles/attachments/handgrip_stock_black.png" name="baseTex"/>
         </textures>
     </variant>
   </group>

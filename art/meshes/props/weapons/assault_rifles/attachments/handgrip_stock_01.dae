@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.45 commit date:2019-03-04, commit time:16:10, hash:e5ab2b9c629e</authoring_tool>
     </contributor>
-    <created>2019-03-21T00:35:54</created>
-    <modified>2019-03-21T00:35:54</modified>
+    <created>2019-03-21T22:05:28</created>
+    <modified>2019-03-21T22:05:28</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -79,7 +79,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Handgrip_Ready" name="Handgrip_Ready" type="NODE">
-        <matrix sid="transform">0.5196469 0 0 0.01 0 0.5196469 0 0.01 0 0 0.5196469 0.01 0 0 0 1</matrix>
+        <matrix sid="transform">0.5196469 0 0 0 0 0.5196469 0 0 0 0 0.5196469 0 0 0 0 1</matrix>
         <instance_geometry url="#Cubo_054-mesh" name="Handgrip_Ready">
           <bind_material>
             <technique_common>

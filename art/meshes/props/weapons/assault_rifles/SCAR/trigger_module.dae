@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.45 commit date:2019-03-04, commit time:16:10, hash:e5ab2b9c629e</authoring_tool>
     </contributor>
-    <created>2019-03-21T00:45:45</created>
-    <modified>2019-03-21T00:45:45</modified>
+    <created>2019-03-21T22:50:49</created>
+    <modified>2019-03-21T22:50:49</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -108,7 +108,7 @@
           <matrix sid="transform">0.5196469 0 0 -2.23636e-4 0 0.5196469 0 -0.5299672 0 0 0.5196469 0.2187121 0 0 0 1</matrix>
         </node>
         <node id="prop_magazine" name="prop_magazine" type="NODE">
-          <matrix sid="transform">0.5196469 0 1.77636e-15 -2.23636e-4 0 0.5196469 0 -0.3541903 -1.77636e-15 0 0.5196469 0.2307056 0 0 0 1</matrix>
+          <matrix sid="transform">0.5196469 0 1.77636e-15 -2.23636e-4 0 0.5196469 0 -0.3541904 -1.77636e-15 0 0.5196469 0.2009351 0 0 0 1</matrix>
         </node>
         <node id="prop_Sight-M" name="prop_Sight-M" type="NODE">
           <matrix sid="transform">0.5196469 0 0 -2.23636e-4 0 0.5196469 0 -0.2604118 0 0 0.5196469 0.4303912 0 0 0 1</matrix>

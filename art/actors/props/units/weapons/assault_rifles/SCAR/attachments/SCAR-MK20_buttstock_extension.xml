@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Buttstock type-2">
+    <variant name="Buttstock MK20">
         <mesh>props/weapons/assault_rifles/SCAR/MK20_buttstock_extension.dae</mesh>
     </variant>
   </group>

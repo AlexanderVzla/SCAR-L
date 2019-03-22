@@ -2,26 +2,26 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="SCAR-L 7.62x39">
+    <variant>
         <mesh>props/weapons/assault_rifles/SCAR/trigger_module.dae</mesh>
     </variant>
   </group>
   <group>
-    <variant>
+    <variant frequency="1" name="Stock 7_62x39">
         <textures>
-          <texture file="props/weapons/assault_rifles/SCAR/trigger_module_type-1.png" name="baseTex"/>
+          <texture file="props/weapons/assault_rifles/SCAR/trigger_module_v1.png" name="baseTex"/>
           <texture file="props/weapons/assault_rifles/SCAR/trigger_module_norm.png" name="normTex"/>
           <texture file="props/weapons/assault_rifles/SCAR/trigger_module_spec.png" name="specTex"/>
         </textures>
       <props>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Core.xml" attachpoint="Gun_Core"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_module.xml" attachpoint="Buttstock_Holder"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_buttstock_holder.xml" attachpoint="Buttstock_Holder"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Buttstock_Module_stock.xml" attachpoint="Buttstock_Holder"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Buttstock_Holder_stock.xml" attachpoint="Buttstock_Holder"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK17_Receiver.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK17_Guard.xml" attachpoint="Receiver"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK17_Rail.xml" attachpoint="Barrel_Holder"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_muzzle.xml" attachpoint="Muzzle"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Stock_iron_sight.xml" attachpoint="Rear_Sight"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Muzzle_stock.xml" attachpoint="Muzzle"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Iron_Sight_stock.xml" attachpoint="Rear_Sight"/>
         <prop actor="props/units/weapons/assault_rifles/barrel/STD-16_barrel.xml" attachpoint="Barrel"/>
       </props>
     </variant>

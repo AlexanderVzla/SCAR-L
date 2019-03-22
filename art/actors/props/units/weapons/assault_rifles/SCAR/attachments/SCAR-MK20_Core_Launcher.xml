@@ -12,10 +12,10 @@
           <texture file="props/weapons/assault_rifles/SCAR/barrel.png" name="baseTex"/>
         </textures>
       <props>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_buttstock_case.xml" attachpoint="Buttstock"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_buttstock_extension.xml" attachpoint="Buttstock_Extension"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Buttstock_Case.xml" attachpoint="Buttstock"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-MK20_Buttstock_Extension.xml" attachpoint="Buttstock_Extension"/>
         <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-EGLM_Launcher.xml" attachpoint="EGLM"/>
-        <prop actor="props/units/weapons/ammo/7_62x39_magazine_type-01.xml" attachpoint="Magazine"/>
+        <prop actor="props/units/weapons/ammo/7_62x39_magazine_v1.xml" attachpoint="Magazine"/>
       </props>
     </variant>
   </group>

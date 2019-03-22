@@ -9,7 +9,7 @@
   <group>
     <variant>
         <textures>
-          <texture file="props/weapons/assault_rifles/SCAR/eglm_type-1.png" name="baseTex"/>
+          <texture file="props/weapons/assault_rifles/SCAR/eglm_v1.png" name="baseTex"/>
         </textures>
     </variant>
   </group>

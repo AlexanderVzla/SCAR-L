@@ -2,19 +2,19 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="SCAR">
+    <variant>
         <mesh>props/weapons/assault_rifles/SCAR/SCAR-Core.dae</mesh>
+        <textures>
+          <texture file="props/weapons/assault_rifles/SCAR/barrel.png" name="baseTex"/>
+        </textures>
     </variant>
   </group>
   <group>
     <variant>
-        <textures>
-          <texture file="props/weapons/assault_rifles/SCAR/barrel.png" name="baseTex"/>
-        </textures>
       <props>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-buttstock_case.xml" attachpoint="Buttstock"/>
-        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-buttstock_extension.xml" attachpoint="Buttstock_Extension"/>
-        <prop actor="props/units/weapons/ammo/7_62x39_magazine_type-01.xml" attachpoint="Magazine"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Buttstock_Case_stock.xml" attachpoint="Buttstock"/>
+        <prop actor="props/units/weapons/assault_rifles/SCAR/attachments/SCAR-Buttstock_Extension_stock.xml" attachpoint="Buttstock_Extension"/>
+        <prop actor="props/units/weapons/ammo/7_62x39_magazine_v1.xml" attachpoint="Magazine"/>
       </props>
     </variant>
   </group>

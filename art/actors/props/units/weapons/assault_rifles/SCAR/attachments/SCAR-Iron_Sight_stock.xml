@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Stock Sight">
-        <mesh>props/weapons/assault_rifles/SCAR/iron_sight.dae</mesh>
+    <variant name="Stock">
+        <mesh>props/weapons/assault_rifles/SCAR/iron_sight_stock.dae</mesh>
     </variant>
   </group>
   <group>
