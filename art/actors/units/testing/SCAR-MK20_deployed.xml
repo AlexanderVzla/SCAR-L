@@ -15,11 +15,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/death_infantry.xml"/>
     <variant file="biped/sharpshooter/shoot.xml"/>
     <variant file="biped/sharpshooter/aim.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

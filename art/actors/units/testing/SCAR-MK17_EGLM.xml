@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/assault_rifle/relax_3.xml">
+    <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/rome_head_veteran.xml" attachpoint="head"/>
@@ -15,14 +15,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant name="Idle"/>
+  </group>
+  <group>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/assault_rifle/shoot_standing_3.xml" name="Attack_Ranged"/>
-    <variant file="biped/assault_rifle/crouched_3.xml" name="hold_ground"/>
-    <variant file="biped/assault_rifle/alert_3.xml" name="alert"/>
-    <variant file="biped/assault_rifle/ready_3.xml" name="ready"/>
-    <variant file="biped/assault_rifle/violent_3.xml" name="violent"/>
+    <variant file="biped/assault_rifle/crouched_3.xml"/>
+    <variant file="biped/assault_rifle/alert_3.xml"/>
+    <variant file="biped/assault_rifle/ready_3.xml"/>
+    <variant file="biped/assault_rifle/violent_3.xml"/>
+    <variant file="biped/assault_rifle/relax_3.xml"/>
+    <variant file="biped/assault_rifle/violent_3.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>
