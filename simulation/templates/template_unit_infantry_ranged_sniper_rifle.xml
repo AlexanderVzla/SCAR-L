@@ -7,10 +7,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Ammo>15</Ammo>
-      <Missle>15</Missle>
-	  <RefillAmount>5</RefillAmount>
-	  <RefillTime>100000</RefillTime>
       <Hack>0</Hack>
       <Pierce>1.5</Pierce>
       <Crush>0</Crush>
@@ -20,7 +16,6 @@
       <Gravity>9.81</Gravity>
       <PrepareTime>3000</PrepareTime>
       <RepeatTime>250</RepeatTime>
-	  <AnimLength>2000</AnimLength>
       <Spread>12.0</Spread>
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

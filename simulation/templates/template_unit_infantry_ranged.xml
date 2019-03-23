@@ -7,9 +7,6 @@
   </Armour>
   <Attack>
     <Ranged>
-      <Ammo>20</Ammo>
-	  <RefillAmount>5</RefillAmount>
-	  <RefillTime>100000</RefillTime>
       <Hack>0</Hack>
       <Pierce>1.5</Pierce>
       <Crush>0</Crush>

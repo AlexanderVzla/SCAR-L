@@ -1,4 +1,4 @@
-<variant name="Base" frequency="1">
+<variant name="relax">
   <animations>
     <animation file="biped/assault_rifle/relax/idle_a_2.dae" name="Idle" id="idle1" speed="30"/>
     <animation file="biped/assault_rifle/relax/idle_b_2.dae" name="Idle" id="idle2" speed="31"/>
