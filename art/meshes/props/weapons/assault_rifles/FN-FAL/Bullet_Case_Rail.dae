@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.80.45 commit date:2019-03-04, commit time:16:10, hash:e5ab2b9c629e</authoring_tool>
+    </contributor>
+    <created>2019-03-27T04:55:31</created>
+    <modified>2019-03-27T04:55:31</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="FN-FAL_BARREL-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="FN-FAL_BARREL-material" name="FN-FAL_BARREL">
+      <instance_effect url="#FN-FAL_BARREL-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_055-mesh" name="Cube.055">
+      <mesh>
+        <source id="Cube_055-mesh-positions">
+          <float_array id="Cube_055-mesh-positions-array" count="48">0.01214617 -0.1356043 0.025343 -0.008331894 0.1620653 -0.03018146 -0.01075744 0.1570808 -0.02229505 -0.009588539 0.1509625 -0.01261466 -0.005776882 0.1444677 -0.002338528 7.81035e-4 0.1342337 0.00837171 0.00951904 0.1262694 0.01402884 0.01200854 0.1138736 0.01968592 0.01214617 0.09588313 0.025343 -0.008331894 -0.1356043 -0.03018146 -0.01075744 -0.1356043 -0.02229505 -0.009588539 -0.1356043 -0.01261466 -0.005776882 -0.1356044 -0.002338528 7.81035e-4 -0.1356044 0.00837171 0.00951904 -0.1356044 0.01402884 0.01200848 -0.1356044 0.01968592</float_array>
+          <technique_common>
+            <accessor source="#Cube_055-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_055-mesh-normals">
+          <float_array id="Cube_055-mesh-normals-array" count="48">-0.7159367 0 0.6981652 -0.6222401 0 0.7828264 -0.7792215 0 0.6267488 -0.9718875 0 0.235446 -0.91606 0 0.4010413 -0.9806836 0 0.1956008 -0.9558155 0 -0.2939675 -0.9865839 0 -0.1632556 -0.9558155 0 -0.2939674 -0.9760183 0 0.217689 -0.999704 0 0.02433097 -0.9303516 0 0.3666686 -0.7613521 0 0.6483386 -0.8994424 0 0.4370394 -0.9960328 0 -0.08898711 -0.999704 0 0.02433127</float_array>
+          <technique_common>
+            <accessor source="#Cube_055-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_055-mesh-map-0">
+          <float_array id="Cube_055-mesh-map-0-array" count="84">0.4525043 0.7547745 0.3129748 0.767198 0.3087314 0.7547748 0.4525043 0.7267047 0.3032786 0.7397861 0.2998181 0.726705 0.4525043 0.7052198 0.2965584 0.7150685 0.2939023 0.70522 0.4525043 0.7745747 0.329165 0.7813284 0.3195799 0.7745751 0.4525043 0.7671982 0.3195799 0.7745751 0.3129748 0.767198 0.4525043 0.7397859 0.3087314 0.7547748 0.3032786 0.7397861 0.4525043 0.7150673 0.2998181 0.726705 0.2965584 0.7150685 0.4525043 0.7547745 0.4525043 0.7671982 0.3129748 0.767198 0.4525043 0.7267047 0.4525043 0.7397859 0.3032786 0.7397861 0.4525043 0.7052198 0.4525043 0.7150673 0.2965584 0.7150685 0.4525043 0.7745747 0.4525043 0.7813284 0.329165 0.7813284 0.4525043 0.7671982 0.4525043 0.7745747 0.3195799 0.7745751 0.4525043 0.7397859 0.4525043 0.7547745 0.3087314 0.7547748 0.4525043 0.7150673 0.4525043 0.7267047 0.2998181 0.726705</float_array>
+          <technique_common>
+            <accessor source="#Cube_055-mesh-map-0-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_055-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_055-mesh-positions"/>
+        </vertices>
+        <triangles material="FN-FAL_BARREL-material" count="14">
+          <input semantic="VERTEX" source="#Cube_055-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_055-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_055-mesh-map-0" offset="2" set="0"/>
+          <p>13 0 0 6 1 1 5 2 2 11 3 3 4 4 4 3 5 5 9 6 6 2 7 7 1 8 8 15 9 9 8 10 10 7 11 11 14 12 12 7 11 13 6 1 14 12 13 15 5 2 16 4 4 17 10 14 18 3 5 19 2 7 20 13 0 21 14 12 22 6 1 23 11 3 24 12 13 25 4 4 26 9 6 27 10 14 28 2 7 29 15 9 30 0 15 31 8 10 32 14 12 33 15 9 34 7 11 35 12 13 36 13 0 37 5 2 38 10 14 39 11 3 40 3 5 41</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="FN-FAL_Bullet" name="FN-FAL_Bullet" type="NODE">
+        <matrix sid="transform">1.116828 1.59829e-6 -6.37763e-13 0 -2.22235e-6 0.8032103 -5.91959e-7 5.12831e-5 -6.75962e-13 5.32763e-7 0.8924559 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cube_055-mesh" name="FN-FAL_Bullet">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FN-FAL_BARREL-material" target="#FN-FAL_BARREL-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/rome_head_veteran.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/rome_helmet_imperial_gallic.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/FN-FAL_Handgrip.xml" attachpoint="weapon_R"/>
+      </props>
+      <textures>
+        <texture file="skeletal/rome_su4_imperial_legion.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="ready"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="alert"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="violent"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="relax"/>
+    <variant file="biped/assault_rifle/shoot_crouched_1.xml" name="hold_ground"/>
+  </group>
+  <group>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/assault_rifle/crouched_1.xml" name="hold_ground"/>
+    <variant file="biped/assault_rifle/alert_1.xml" name="alert"/>
+    <variant file="biped/assault_rifle/ready_1.xml" name="ready"/>
+    <variant file="biped/assault_rifle/violent_1.xml" name="violent"/>
+    <variant file="biped/assault_rifle/relax_1.xml" name="relax"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

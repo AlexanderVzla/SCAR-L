@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Stock V1">
+        <mesh>props/weapons/assault_rifles/FN-FAL/Buttstock.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/assault_rifles/FN-FAL/FN-FAL_Barrel.png" name="baseTex"/>
+        </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

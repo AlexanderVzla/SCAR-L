@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="FN-FAL 7.62x51">
+        <mesh>props/weapons/assault_rifles/FN-FAL/Handgrip.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/assault_rifles/FN-FAL/FN-FAL_Barrel.png" name="baseTex"/>
+        </textures>
+      <props>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Core.xml" attachpoint="Gun_Core"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Lower_Receiver.xml" attachpoint="Lower_Receiver"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Receiver.xml" attachpoint="Receiver"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Receiver_Cover.xml" attachpoint="Receiver_Cover"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Barrel_Cover.xml" attachpoint="Barrel_Cover"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Barrel_Gas.xml" attachpoint="Barrel_Gas"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Barrel.xml" attachpoint="Barrel"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Muzzle.xml" attachpoint="Muzzle"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

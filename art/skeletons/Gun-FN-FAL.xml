@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton id="Gun-FN-FAL" title="Gun-FN-FAL">
+    <bone name="FAL_Root">
+      <bone name="FAL_Bullet" />
+      <bone name="FAL_Rail" />
+      <bone name="FAL_Bullet_Case" />
+      <bone name="FAL_Bullet_Magazine" />
+      <bone name="FAL_Hammer" />
+      <bone name="FAL_Gatling" />
+      <bone name="FAL_Buttstock">
+        <bone name="FAL_Buttstock_Extension" />
+      </bone>
+      <bone name="FAL_Bullet_Case_Rail" />
+      <bone name="FAL_Magazine" />
+    </bone>
+  </standard_skeleton>
+  <skeleton target="Gun-FN-FAL" title="Gun-FN-FAL">
+    <identifier>
+      <root>FAL_Root</root>
+    </identifier>
+    <bone name="FAL_Root">
+      <target>FAL_Root</target>
+      <bone name="FAL_Bullet">
+        <target>FAL_Bullet</target>
+      </bone>
+      <bone name="FAL_Rail">
+        <target>FAL_Rail</target>
+      </bone>
+      <bone name="FAL_Bullet_Case">
+        <target>FAL_Bullet_Case</target>
+      </bone>
+      <bone name="FAL_Bullet_Magazine">
+        <target>FAL_Bullet_Magazine</target>
+      </bone>
+      <bone name="FAL_Hammer">
+        <target>FAL_Hammer</target>
+      </bone>
+      <bone name="FAL_Gatling">
+        <target>FAL_Gatling</target>
+      </bone>
+      <bone name="FAL_Buttstock">
+        <target>FAL_Buttstock</target>
+        <bone name="FAL_Buttstock_Extension">
+          <target>FAL_Buttstock_Extension</target>
+        </bone>
+      </bone>
+      <bone name="FAL_Bullet_Case_Rail">
+        <target>FAL_Bullet_Case_Rail</target>
+      </bone>
+      <bone name="FAL_Magazine">
+        <target>FAL_Magazine</target>
+      </bone>
+    </bone>
+  </skeleton>
+</skeletons>

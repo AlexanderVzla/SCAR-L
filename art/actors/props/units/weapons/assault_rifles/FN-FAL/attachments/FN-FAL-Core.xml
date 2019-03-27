@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+        <mesh>props/weapons/assault_rifles/FN-FAL/Core.dae</mesh>
+        <textures>
+          <texture file="props/weapons/assault_rifles/SCAR/barrel.png" name="baseTex"/>
+        </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <props>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Buttstock.xml" attachpoint="Buttstock"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Bullet_Case_Rail.xml" attachpoint="Bullet_Case_Rail"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Magazine.xml" attachpoint="Magazine"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
