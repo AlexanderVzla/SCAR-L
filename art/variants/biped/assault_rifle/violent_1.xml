@@ -1,5 +1,6 @@
 <variant name="violent">
   <animations>
+	<animation file="biped/assault_rifle/ready/idle_1.dae" name="Aim" speed="30"/>
     <animation file="biped/assault_rifle/ready/idle_1.dae" name="Idle" id="idle1" speed="30"/>
     <animation file="biped/assault_rifle/ready/idle_1.dae" name="Idle" id="idle2" speed="31"/>
     <animation file="biped/assault_rifle/ready/idle_1.dae" name="Idle" id="idle3" speed="32"/>

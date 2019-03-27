@@ -15,17 +15,27 @@
     </variant>
   </group>
   <group>
-    <variant name="Idle"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="ready"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="alert"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="violent"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="relax"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="hold_ground"/>
+  </group>
+  <group>
+    <variant file="biped/assault_rifle/shoot_standing_3.xml" name="ready"/>
+    <variant file="biped/assault_rifle/shoot_standing_3.xml" name="alert"/>
+    <variant file="biped/assault_rifle/shoot_standing_3.xml" name="violent"/>
+    <variant file="biped/assault_rifle/shoot_standing_3.xml" name="relax"/>
+    <variant file="biped/assault_rifle/shoot_crouched_3.xml" name="hold_ground"/>
   </group>
   <group>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/assault_rifle/crouched_3.xml"/>
-    <variant file="biped/assault_rifle/alert_3.xml"/>
-    <variant file="biped/assault_rifle/ready_3.xml"/>
-    <variant file="biped/assault_rifle/violent_3.xml"/>
-    <variant file="biped/assault_rifle/relax_3.xml"/>
-    <variant file="biped/assault_rifle/violent_3.xml"/>
+    <variant file="biped/assault_rifle/crouched_3.xml" name="hold_ground"/>
+    <variant file="biped/assault_rifle/alert_3.xml" name="alert"/>
+    <variant file="biped/assault_rifle/ready_3.xml" name="ready"/>
+    <variant file="biped/assault_rifle/violent_3.xml" name="violent"/>
+    <variant file="biped/assault_rifle/relax_3.xml" name="relax"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

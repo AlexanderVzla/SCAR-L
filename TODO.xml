@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <Resources>
+      <Oil>
+        <Fuel>
+        <Fuel/>
+        <Tires/>
+      </Oil>
+      <CleanWater>
+        <Food/>
+            <Units/>
+        <Food>
+      </CleanWater>
+      </Metal>
+        <Guns/>
+        <Cars/>
+        <Bullets/>
+      </Metal>
+  </Resources>
+</actor>

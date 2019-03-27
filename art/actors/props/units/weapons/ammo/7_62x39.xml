@@ -14,7 +14,7 @@
           <texture file="props/weapons/ammo/7_62x39_spec.png" name="specTex"/>
         </textures>
       <props>
-        <prop actor="props/units/weapons/guns/ammo/7_62x39_head.xml" attachpoint="bullet_head"/>
+        <prop actor="props/units/weapons/ammo/7_62x39_head.xml" attachpoint="bullet_head"/>
       </props>
     </variant>
   </group>

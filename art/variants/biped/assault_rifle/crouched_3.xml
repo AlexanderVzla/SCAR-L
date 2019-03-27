@@ -1,5 +1,6 @@
 <variant name="hold_ground">
   <animations>
+	<animation file="biped/assault_rifle/crouched/idle_3.dae" name="Aim" speed="30"/>
     <animation file="biped/assault_rifle/crouched/idle_3.dae" name="Idle" id="idle1" speed="30"/>
     <animation file="biped/assault_rifle/crouched/idle_3.dae" name="Idle" id="idle2" speed="31"/>
     <animation file="biped/assault_rifle/crouched/idle_3.dae" name="Idle" id="idle3" speed="32"/>

@@ -14,18 +14,21 @@
       </textures>
     </variant>
   </group>
-  <group>
-    <variant name="Idle"/>
+   <group>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="ready"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="alert"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="violent"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="relax"/>
+    <variant file="biped/assault_rifle/shoot_crouched_1.xml" name="hold_ground"/>
   </group>
   <group>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/assault_rifle/crouched_1.xml"/>
-    <variant file="biped/assault_rifle/alert_1.xml"/>
-    <variant file="biped/assault_rifle/ready_1.xml"/>
-    <variant file="biped/assault_rifle/violent_1.xml"/>
-    <variant file="biped/assault_rifle/relax_1.xml"/>
-    <variant file="biped/assault_rifle/violent_1.xml"/>
+    <variant file="biped/assault_rifle/crouched_1.xml" name="hold_ground"/>
+    <variant file="biped/assault_rifle/alert_1.xml" name="alert"/>
+    <variant file="biped/assault_rifle/ready_1.xml" name="ready"/>
+    <variant file="biped/assault_rifle/violent_1.xml" name="violent"/>
+    <variant file="biped/assault_rifle/relax_1.xml" name="relax"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

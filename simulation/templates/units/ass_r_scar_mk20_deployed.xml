@@ -4,6 +4,9 @@
     <Entity>units/ass_r_scar_mk20</Entity>
     <State>unpacked</State>
   </Pack>
+  <Identity>
+	<GenericName>MK20_deployed</GenericName>
+  </Identity>
   <UnitMotion>
     <WalkSpeed>0.001</WalkSpeed>
     <Run>

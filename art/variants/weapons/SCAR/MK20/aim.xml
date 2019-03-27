@@ -1,4 +1,4 @@
-<variant name="aim">
+<variant>
   <animations>
     <animation event="0.35" file="weapons/assault_rifles/SCAR/MK20/aim.dae" load="0.75" name="aim" speed="100"/>
   </animations>

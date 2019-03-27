@@ -12,10 +12,13 @@
       <Crush>0</Crush>
       <MaxRange>10.0</MaxRange>
       <MinRange>0.0</MinRange>
-      <ProjectileSpeed>75.0</ProjectileSpeed>
+      <ProjectileSpeed>20.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
-      <PrepareTime>750</PrepareTime>
-      <RepeatTime>1250</RepeatTime>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+	  <FullStack>5</FullStack>
+	  <AimTime>2000</AimTime>
+	  <ReloadTime>10000</ReloadTime>
       <Spread>3.0</Spread>
       <Delay>0</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>

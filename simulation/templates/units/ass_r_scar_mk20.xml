@@ -6,6 +6,7 @@
   </Pack>
   <Identity>
     <Rank>Elite</Rank>
+	<GenericName>MK20</GenericName>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
