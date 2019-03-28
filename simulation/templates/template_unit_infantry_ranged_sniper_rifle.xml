@@ -22,6 +22,9 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
   <Health>
     <Max>50</Max>
   </Health>

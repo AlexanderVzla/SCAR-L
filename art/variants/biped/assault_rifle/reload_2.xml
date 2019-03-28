@@ -1,6 +1,6 @@
 <variant name="reload">
   <animations>
-    <animation event="0.35" file="biped/assault_rifle/reloading/reload_2.dae" load="0.35" name="reload" speed="30"/>
+    <animation event="0.35" file="biped/assault_rifle/reloading/reload_2.dae" load="0.35" name="reload" speed="80"/>
   </animations>
   <props>
     <prop actor="props/units/weapons/ammo/7_62x39_magazine_v1.xml" attachpoint="ammo"/>

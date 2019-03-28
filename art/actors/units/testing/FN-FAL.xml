@@ -7,12 +7,19 @@
       <props>
         <prop actor="props/units/heads/new/rome_head_veteran.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/rome_helmet_imperial_gallic.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/assault_rifles/FN-FAL/FN-FAL_Handgrip.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/FN-FAL.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
         <texture file="skeletal/rome_su4_imperial_legion.dds" name="baseTex"/>
       </textures>
     </variant>
+  </group>
+  <group>
+	<variant file="biped/assault_rifle/reload_1.xml" name="ready"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="alert"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="violent"/>
+	<variant file="biped/assault_rifle/reload_1.xml" name="relax"/>
+	<variant file="biped/assault_rifle/reload_crouched_1.xml" name="hold_ground"/>
   </group>
   <group>
     <variant file="biped/assault_rifle/shoot_standing_1.xml" name="ready"/>

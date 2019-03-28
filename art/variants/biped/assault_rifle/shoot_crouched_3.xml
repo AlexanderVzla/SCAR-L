@@ -1,8 +1,10 @@
 <variant name="ready">
   <animations>
-    <animation event="0.35" file="biped/assault_rifle/shooting/crouched_3.dae" load="0.75" name="loose" speed="200"/>
+    <animation event="0.35" file="biped/assault_rifle/shooting/crouched_3.dae" load="0.75" name="loose" speed="80"/>
   </animations>
   <props>
+    <prop actor="" attachpoint="weapon_L"/>
+    <prop actor="" attachpoint="ammo"/>
     <prop actor="props/units/weapons/ammo/7_62x39_head.xml" attachpoint="projectile"/>
   </props>
 </variant>

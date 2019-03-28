@@ -7,18 +7,27 @@
   </Armour>
   <Attack>
     <Ranged>
+	  <MaxAmmo>75</MaxAmmo>
+	  <FullStack>25</FullStack>
       <Hack>0</Hack>
       <Pierce>1.5</Pierce>
       <Crush>0</Crush>
       <MaxRange>70.0</MaxRange>
-      <MinRange>4.0</MinRange>
+      <MinRange>15.0</MinRange>
       <ProjectileSpeed>20.0</ProjectileSpeed>
       <Gravity>9.81</Gravity>
-      <Spread>12.0</Spread>
-      <Delay>0</Delay>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>500</RepeatTime>
+	  <ReloadTime>1500</ReloadTime>
+	  <AimTime>1</AimTime>
+      <Spread>3.0</Spread>
+      <Delay>5</Delay>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+  </UnitAI>
   <Health>
     <Max>50</Max>
   </Health>

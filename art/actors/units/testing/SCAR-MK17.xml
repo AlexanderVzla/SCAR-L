@@ -15,11 +15,11 @@
     </variant>
   </group>
   <group>
-	<variant file="biped/assault_rifle/reload_1.xml" name="ready"/>
-	<variant file="biped/assault_rifle/reload_1.xml" name="alert"/>
-	<variant file="biped/assault_rifle/reload_1.xml" name="violent"/>
-	<variant file="biped/assault_rifle/reload_1.xml" name="relax"/>
-	<variant file="biped/assault_rifle/reload_1.xml" name="hold_ground"/>
+	<variant file="biped/assault_rifle/reload_2.xml" name="ready"/>
+	<variant file="biped/assault_rifle/reload_2.xml" name="alert"/>
+	<variant file="biped/assault_rifle/reload_2.xml" name="violent"/>
+	<variant file="biped/assault_rifle/reload_2.xml" name="relax"/>
+	<variant file="biped/assault_rifle/reload_crouched_2.xml" name="hold_ground"/>
   </group>
   <group>
     <variant file="biped/assault_rifle/shoot_standing_2.xml" name="ready"/>
