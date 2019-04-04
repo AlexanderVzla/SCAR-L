@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="FN-FAL">
-        <mesh>props/weapons/assault_rifles/FN-FAL/Magazine.dae</mesh>
+        <mesh>props/weapons/assault_rifles/FN-FAL/Magazinex20.dae</mesh>
     </variant>
   </group>
   <group>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Armour>
+    <Hack>1</Hack>
+    <Pierce>1</Pierce>
+    <Crush>10</Crush>
+  </Armour>
+  <Attack>
+    <Ranged>
+	  <MaxAmmo>40</MaxAmmo>
+	  <FullStack>10</FullStack>
+      <Hack>0</Hack>
+      <Pierce>1.5</Pierce>
+      <Crush>0</Crush>
+      <MaxRange>35.0</MaxRange>
+      <MinRange>5.0</MinRange>
+      <ProjectileSpeed>20.0</ProjectileSpeed>
+      <Gravity>9.81</Gravity>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+	  <ReloadTime>1200</ReloadTime>
+	  <AimTime>1</AimTime>
+      <Spread>3.0</Spread>
+      <Delay>5</Delay>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <UnitAI>
+    <DefaultStance>defensive</DefaultStance>
+  </UnitAI>
+  <Health>
+    <Max>50</Max>
+  </Health>
+  <Identity>
+    <GenericName>Ranged</GenericName>
+    <VisibleClasses datatype="tokens">Assault</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.4</WalkSpeed>
+    <Run>
+      <Speed op="mul">1.0</Speed>
+    </Run>
+  </UnitMotion>
+</Entity>

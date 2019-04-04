@@ -1,0 +1,10 @@
+<variant name="ready">
+  <animations>
+    <animation event="0.35" file="biped/pistol/standing/shoot.dae" load="0.75" name="loose" speed="80"/>
+  </animations>
+  <props>
+    <prop actor="" attachpoint="weapon_L"/>
+    <prop actor="" attachpoint="ammo"/>
+    <prop actor="props/units/weapons/ammo/7_62x39_head.xml" attachpoint="projectile"/>
+  </props>
+</variant>

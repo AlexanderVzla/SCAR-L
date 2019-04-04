@@ -1,0 +1,15 @@
+<variant name="hold_ground">
+  <animations>
+	<animation file="biped/pistol/crouched/idle.dae" name="Aim" speed="30"/>
+    <animation file="biped/pistol/crouched/idle.dae" name="Idle" id="idle1" speed="30"/>
+    <animation file="biped/pistol/crouched/idle.dae" name="Idle" id="idle2" speed="31"/>
+    <animation file="biped/pistol/crouched/idle.dae" name="Idle" id="idle3" speed="32"/>
+    <animation file="biped/pistol/crouched/walk.dae" name="Walk" id="walk1" speed="10"/>
+    <animation file="biped/pistol/crouched/walk.dae" name="Walk" id="walk2" speed="8"/>
+    <animation file="biped/pistol/ready/run.dae" name="Run" id="run1" speed="4"/>
+  </animations>
+  <props>
+    <prop actor="" attachpoint="weapon_L"/>
+    <prop actor="" attachpoint="ammo"/>
+  </props>
+</variant>

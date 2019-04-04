@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="GLOCK">
+        <mesh>props/weapons/pistols/GLOCK/attachments/Core.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant>
+        <textures>
+          <texture file="props/weapons/pistols/GLOCK/GLOCK.png" name="baseTex"/>
+        </textures>
+      <props>
+        <prop actor="props/units/weapons/pistols/GLOCK/attachments/GLOCK-Slide.xml" attachpoint="Slide"/>
+        <prop actor="props/units/weapons/pistols/GLOCK/attachments/GLOCK-Barrel.xml" attachpoint="Barrel"/>
+        <prop actor="props/units/weapons/pistols/GLOCK/attachments/GLOCK-Magazine.xml" attachpoint="Magazine"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

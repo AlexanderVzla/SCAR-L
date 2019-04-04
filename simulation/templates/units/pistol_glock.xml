@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_pistol">
+  <Identity>
+    <Rank>Elite</Rank>
+	<GenericName>MK17_EGLM</GenericName>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/testing/GLOCK.xml</Actor>
+  </VisualActor>
+</Entity>

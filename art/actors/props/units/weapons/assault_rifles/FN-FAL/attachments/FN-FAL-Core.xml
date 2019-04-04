@@ -14,7 +14,7 @@
       <props>
         <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Buttstock.xml" attachpoint="Buttstock"/>
         <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Bullet_Case_Rail.xml" attachpoint="Bullet_Case_Rail"/>
-        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Magazine.xml" attachpoint="Magazine"/>
+        <prop actor="props/units/weapons/assault_rifles/FN-FAL/attachments/FN-FAL-Magazinex20.xml" attachpoint="Magazine"/>
       </props>
     </variant>
   </group>
